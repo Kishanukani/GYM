@@ -1,0 +1,150 @@
+*{
+    font-family: 'Playball', cursive;
+font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+body{
+    padding: 0;
+    color: aliceblue;
+    margin: 0;
+    background: url('/alltests/CWH/img/barbell.jpg');
+    background-size: 100%;    
+    /* height: auto;
+    width: 1700px; */
+    background-repeat: no-repeat;
+    font-family: 'Playball', cursive;
+font-family: 'Tiro Devanagari Hindi', serif;
+}
+.left{
+    
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    /* border: 3px solid white; */
+    display: inline-block;
+}
+
+.left div{
+    text-align: center;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+
+.left img{
+    padding-left: 25px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    filter: invert();
+    
+}
+
+.right
+{
+    /* background-color:  chartreuse; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    /* border: 3px solid white; */
+    display: inline-block;
+
+}
+.btn
+{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    border: 2px yellow solid;
+    padding: 4px 14px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: beige;
+    color: black;
+    /* border-color: black; */
+    border: 13px solid rgb(70, 65, 65);
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+font-size: 25px;
+}
+
+.navbar li a{
+color: white;
+padding: 24px 23px;
+text-decoration: none;
+list-style-type: none;
+     /* display: inline-block; */
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+ 
+.navbar{
+    padding: 0;
+}
+
+.mid
+{
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    /* border: 3px solid white; */
+    /* display: inline-block; */
+
+}
+form{
+    background-color: rgba(0, 255, 255, 0.208);
+    line-height: 88%;
+}
+.btnsub{
+    margin-top: 10px;
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    text-align: centers;
+    padding: 4px 14px;
+    /* font-size: 20px; */
+    margin-left: 80px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    /* margin: auto; */
+    /* margin: 0 auto; */
+
+}
+.container
+{
+    color: white;
+    line-height: 20%;
+    position: absolute;
+    font-size: 40px;
+    left: 100px;
+    top: 35%;
+    border: 2px solid white;
+    margin: 2px;
+    padding: 2px;
+    width: 59%;
+    border-radius: 2px;
+}
+
+.container h1{
+    color: aqua;
+}
+
+.form-group{
+    margin-left: 50px;
+}
+.form-group input{
+ text-align: center ;   
+}
