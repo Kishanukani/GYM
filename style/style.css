@@ -7,7 +7,8 @@ body{
     padding: 0;
     color: aliceblue;
     margin: 0;
-    background: url('/GYM/img/barbell.jpg');
+    background: url('/img/barbell.jpg');
+    /* img\barbell.jpg */
     background-size: 100%;    
     /* height: auto;
     width: 1700px; */
@@ -69,11 +70,12 @@ font-family: 'Tiro Devanagari Hindi', serif;
 
 .navbar{
     display: inline-block;
+    /* border: 2px solid pink; */
 }
 
 .navbar li{
     display: inline-block;
-font-size: 25px;
+font-size: 23px;
 }
 
 .navbar li a{
@@ -95,7 +97,7 @@ list-style-type: none;
 .mid
 {
     display: block;
-    width: 36%;
+    width: 40%;
     margin: 20px auto;
     /* border: 3px solid white; */
     /* display: inline-block; */
